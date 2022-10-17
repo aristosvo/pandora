@@ -337,7 +337,7 @@ service "streamanalytics" {
 }
 service "subscription" {
   name      = "Subscription"
-  available = ["2021-10-01"]
+  available = ["2016-06-01", "2021-10-01"]
 }
 service "trafficmanager" {
   name      = "TrafficManager"
